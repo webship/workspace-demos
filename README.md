@@ -1,4 +1,4 @@
-# @webship/workspace-demos
+# @webship.co/workspace-demos
 
 The **Demos** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `demos/` folder (type `sites`), its settings file (`core/config/workspace.demos.settings.yml`),
