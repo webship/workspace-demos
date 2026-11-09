@@ -1,6 +1,6 @@
 {
   "name": "@webship.co/workspace-demos",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "The Demos workspace for Webship Workspace: the `demos/` folder (type sites), its settings file, its 27 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
