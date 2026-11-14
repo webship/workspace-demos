@@ -26,6 +26,14 @@
   "workspacePlugin": {
     "name": "demos",
     "label": "Demos",
+    "suggests": {
+      "commands": [
+        {
+          "command": "composer",
+          "hint": "https://getcomposer.org/download/"
+        }
+      ]
+    },
     "workspace": {
       "key": "demos",
       "settingsTemplate": "config/workspace.demos.settings.yml",
