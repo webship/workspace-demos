@@ -49,3 +49,13 @@ bash cmd-webships2-0-x-project.sh                     # Webships 2.0.x
 
 Every one locates the workspace from its own path, so there is nothing to export and nothing to
 install. `--help` on any of them lists its arguments.
+
+## AI items for this folder
+
+The plugin of this folder (`@webship.co/workspace-demos`) places its own AI items in the AI folders of the
+workspace, when they are active:
+
+- `demos-site-builder` (`ai-agents/`): Builds a demo site in `demos/` and gets it ready to be shown: installed, default accounts, an address, a check with Webship-js, a backup
+- `demos-workflow` (`ai-skills/`): How work is done in `demos/`: build, address, check, back up; every builder and tool with its flags, the settings keys
+- `/demos-build` (`ai-commands/`): `/demos-build <builder> <name>`: builds the demo installed and with its accounts, says where it answers and backs it up
+- `demos-build-a-demo` (`ai-prompts/`): A new session that builds a demo, checks it with Webship-js and backs it up before it is shown
